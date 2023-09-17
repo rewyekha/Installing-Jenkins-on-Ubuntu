@@ -107,24 +107,3 @@ e. Open the private key pair you created in the creating a key pair step and pas
 f. Scroll down to "Test Connection" and ensure it states "Success". Select Save when done
 
 You are now ready to use EC2 instances as Jenkins agents!!!!!!!!!!!!
-
-
-
-Then, run the following command to install JDK 11:
-
-Now, we will install Jenkins itself. Issue the following four commands in sequence to initiate the installation from the Jenkins repository:
-
-Once that’s done, start the Jenkins service with the following command:
-```bash
-sudo systemctl start jenkins.service
-
-Once done, test whether the firewall is active using this command:
-
-
-
-
-
-
-Then, In the file enter the following code snippet to make the Apache works for Jenkins. Then, In this ServerName should be your domain name, ProxyPass should point your localhost point to Jenkins (Port 8080) and ProxyPassReverse should be added for both localhost address and Domain address. In the <proxy> block, we need to give access to the apache to handle the Jenkins.
-
-That’s all. Now on, your Jenkins server will run behind the Apache’s Reverse Proxy.
