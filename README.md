@@ -9,10 +9,10 @@ these guides will help you harness the power of Jenkins for automation, testing,
 ## Installation Guides
 
 ### 1. Jenkins on Ubuntu
-- [Ubuntu Installation Guide](ubuntu/README.md) - Follow this guide to install Jenkins on your Ubuntu server. It's suitable for both beginners and experienced users. Get started with Jenkins on Ubuntu quickly!
+- [Ubuntu Installation Guide]
 
 ### 2. Jenkins on Amazon Linux
-- [Amazon Linux Installation Guide](amazon-linux/README.md) - If you prefer Amazon Linux, this guide will walk you through the installation process. Jenkins on Amazon Linux is a robust choice for your CI/CD needs.
+- [Amazon Linux Installation Guide]
 
 ## Features
 
